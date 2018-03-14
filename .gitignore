@@ -1,0 +1,10 @@
+# Backup files
+*~
+
+# Node installs
+*npm-debug.log
+*node_modules/
+*.sass-cache/
+
+# PHP Storm Config files
+.idea/

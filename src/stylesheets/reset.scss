@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+    font-weight:normal;
+}
+html,body,div,span,applet,object,iframe,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,
+section, summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    outline:0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,object,section{ display: block; }
+hr { clear:both; float:none; width:100%; }
+.ie6 body hr, .ie7 body hr { display:block; margin:-8px; }
+hr.clear { display:block; visibility:hidden; clear:both; height:0; margin:0; padding:0; border:0; }
+.line hr { visibility:hidden; }
+a { cursor:pointer; }
+a, img { border:none; text-decoration:none;}
+a:hover { text-decoration:none; }
+ol,ul { list-style: none; }
+input[type=hidden] { display:none !important; visibility:hidden !important;}
+input[type=submit] { cursor:pointer; }
+table { border-collapse:collapse; border-spacing:0; }
+blockquote, q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+address { font-style:normal; }
+input, select, textarea { font-family:Arial, Helvetica, sans-serif; -webkit-appearance:none; }
+select { -webkit-appearance:menulist; }
+input[type=checkbox] { -webkit-appearance:checkbox; }
+input[type=radio] { -webkit-appearance:radio; }
+textarea { overflow:auto; resize:none; }
+strong { font-weight:bold !important; }
+em { font-style:italic; }
+* html .clearfix { height:1%; overflow:visible; } /* float clearing for IE6 */
+*+html .clearfix { min-height:1%; } /* float clearing for IE7 */
+.ie legend { margin:0 -7px; }
+body { -webkit-font-smoothing: antialiased;-webkit-text-size-adjust:none; line-height: 1;transition-duration: 0.15s;overflow-x: hidden; }

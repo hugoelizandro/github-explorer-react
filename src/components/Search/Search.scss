@@ -1,0 +1,27 @@
+.core {
+  .intro {
+    position: relative;
+    margin-bottom: 40px;
+    background: url('../../assets/img/elements/bg-intro.jpg') no-repeat center/cover;
+    .introCore {
+      height: 350px;
+      text-align: center;
+      @media (max-width: 960px) {
+        height: 250px;
+      }
+    }
+  }
+  .searchBox{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    h1{
+      margin-bottom: 20px;
+    }
+  }
+  .cardBlock {
+    @media (max-width: 960px) {
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.core {
+  flex-grow: 1;
+  .wrapper {
+    min-height: 60vh;
+    padding-bottom: 15px;
+    .heading {
+      padding-top: 80px;
+      text-align: center;
+      p {
+        margin-top: 25px;
+      }
+    }
+  }
+}

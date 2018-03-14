@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+main {
+  font-family: 'ubunturegular';
+  background: #2a343d;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+:global div[class^="col-"] {
+    vertical-align: top;
+}
+
+:global .vertical-center {
+  height: 100%;
+  &:before {
+      content: '';
+      width: 0;
+      height: inherit;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .child {
+      width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+}
+
+@font-face {
+  font-family: 'ubuntubold';
+  src: url('../assets/fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+       url('../assets/fonts/ubuntu-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubunturegular';
+  src: url('../assets/fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+       url('../assets/fonts/ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'ubunturegular';
+  color: #fff;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1;
+  @media (max-width: 960px) {
+    font-size: 28px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1;
+  @media (max-width: 960px) {
+    font-size: 24px;
+  }
+}
+
+h3, h4 {
+  font-size: 26px;
+  @media (max-width: 960px) {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-family: 'ubunturegular';
+  color: #fff;
+  font-size: 16px;
+  @media (max-width: 960px) {
+    font-size: 14px;
+  }
+}
+
+small {
+  font-family: 'ubunturegular';
+  color: #fff;
+  font-size: 13px;
+  @media (max-width: 960px) {
+    font-size: 12px;
+  }
+}
